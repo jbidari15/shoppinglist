@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstContainer{
+  
+    display:flex;
+    width:70%;
+    margin-bottom: 70px;
+   
+}
+form{
+     display:flex;
+    width:100%;
+    justify-content: space-between;
+}
+input[type="text"]{
+    height:50px;
+    width:500px;
+    border:none;
+    background:#F6F6F6;
+    border:1px solid blue;
+    font-size: 30px;
+}
+::placeholder{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+span{
+    text-align: center;
+    font-size: 50px;
+    color:brown;
+    background: #EAEAEA;
+}
+#add{
+    height:55px;
+    width:200px;
+    background: blue;
+    color:white;
+}
+#secondContainer{
+    display:grid;
+  background: #FFE1BD;
+    width:70%;
+    margin-bottom: 70px;
+ 
+}
+.item{
+  
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    font-size: 30px;
+
+
+}
+input[type="checkbox"]{
+    border:1px solid #3A3A3A;
+}
+.item:nth-child(odd){
+background:#D9D9D9;
+}
+.doing-delete{
+    height:30px;
+    width:100px;
+    background:grey;
+    color:white;
+}
+.doing-delete:hover{
+    background: red;
+}
+#thirdContainer{
+    display:grid;
+   background:#C0BCC0;
+    width:70%;
+}
+.deletedItem{
+    border:1px dotted red;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    height:100px;
+
+}
+input[type="checkbox"]{
+    height:30px;
+    width:30px;
+}
+.undo{
+    height:30px;
+    width:100px;    
+}
+.undo:hover{
+    background: green;
+    color:white;
+}
+/* .done-item div{
+    text-decoration: line-through;
+} */

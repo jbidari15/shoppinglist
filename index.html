@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="design.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="firstContainer">
+            <form action="#">
+                <div><input id="name" type="text" placeholder="name" ></div>   
+                <div><input id="quantity" type="text" placeholder="quantity" ></div>    
+                <div><button  id="add">ADD</button></div>     
+            </form>
+        </div>
+        <div id="secondContainer" >
+            <SPAN>DOING</SPAN>
+           <div class="item">
+               <input class="myCheck" type="checkbox">
+               <div class="itemName">Orange</div>
+               <div>2kg</div>
+               <button class="doing-delete" >DELETE</button>
+           </div>
+           <div class="item">
+                <input class="myCheck" type="checkbox" >
+                <div class="itemName">Apple</div>
+                <div>1kg</div>
+                <button class="doing-delete">DELETE</button>
+            </div>
+            <div class="item">
+                <input class="myCheck" type="checkbox" onclick="doCheck()">
+                <div class="itemName">Juice</div>
+                <div>1L</div>
+                <button class="doing-delete">DELETE</button>
+            </div>
+             <div class="item">
+                <input class="myCheck" type="checkbox" onclick="doCheck()" >
+                <div class="itemName">Rice</div>
+                <div>3kg</div>
+                <button class="doing-delete">DELETE</button>
+            </div>
+            <div class="item">
+            <input class="myCheck" type="checkbox" onclick="doCheck()">
+                <div class="itemName">Vegetables</div>
+                <div>3kg</div>
+                <button class="doing-delete">DELETE</button>
+            </div>
+            </div>
+        <div id="thirdContainer">
+          <span>DONE</span>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
